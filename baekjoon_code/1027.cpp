@@ -19,12 +19,12 @@ int main()
         for (int j = 0; j < n; j++)
         {
             if (i == j) continue;
-            double x = (1.0)*(bu[j] - bu[i]) / (j - i);
-            int cal = bu[min(i,j)];
-            bool can_see = true;            
-            for (int k = min(i,j)+1; k < max(i,j); k++)
+            double x = (1.0) * (bu[j] - bu[i]) / (j - i);
+            int cal = bu[min(i, j)];
+            bool can_see = true;
+            for (int k = min(i, j) + 1; k < max(i, j); k++)
             {
-                double cal2 = cal + x*(k-min(i,j));
+                double cal2 = cal + x * (k - min(i, j));
                 if (bu[k] >= cal2)
                 {
                     can_see = false;

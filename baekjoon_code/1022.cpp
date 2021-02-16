@@ -7,7 +7,7 @@ using namespace std;
 int print_num(int x, int y, int p)
 {
     int t = max(abs(x), abs(y));
-    int start = pow(t*2+1,2);
+    int start = pow(t * 2 + 1, 2);
     int i;
     int j;
     i = j = t;
@@ -32,7 +32,7 @@ int print_num(int x, int y, int p)
 
     return num;
 }
-int set_num(int x1, int y1,int x2,int y2,int bo[][5])
+int set_num(int x1, int y1, int x2, int y2, int bo[][5])
 {
     int a = max(abs(x1), abs(y1));
     int b = max(abs(x2), abs(y2));
@@ -47,12 +47,12 @@ int set_num(int x1, int y1,int x2,int y2,int bo[][5])
     int x, y;
     x = y = 0;
     int m = 0;
-    for (int i = x1;i <= x2; i++)
+    for (int i = x1; i <= x2; i++)
     {
         y = 0;
         for (int j = y1; j <= y2; j++)
         {
-            bo[x][y]=print_num(i, j, cnt);
+            bo[x][y] = print_num(i, j, cnt);
             m = max(m, bo[x][y]);
             y++;
         }
@@ -65,12 +65,12 @@ int set_num(int x1, int y1,int x2,int y2,int bo[][5])
 
 int main()
 {
-    int r1, c1,r2,c2;
-    int b[50][5],max;
+    int r1, c1, r2, c2;
+    int b[50][5], max;
     cin >> r1 >> c1 >> r2 >> c2;
 
-    max=set_num(r1, c1, r2, c2,b);
-    int cnt=0;
+    max = set_num(r1, c1, r2, c2, b);
+    int cnt = 0;
     while (max)
     {
         max /= 10;

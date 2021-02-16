@@ -10,7 +10,7 @@ int main()
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < M; j++)
-            scanf("%1d",&lamp[i][j]);
+            scanf("%1d", &lamp[i][j]);
     }
     int K;
     cin >> K;
@@ -23,7 +23,7 @@ int main()
         {
             if (lamp[i][j] == 0) cnt++;
         }
-        if (cnt > K || cnt % 2 != K %2) continue;
+        if (cnt > K || cnt % 2 != K % 2) continue;
 
         for (int x = 0; x < N; x++)
         {

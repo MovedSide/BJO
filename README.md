@@ -13,4 +13,5 @@ id : moveside
 3/2 class3 금장
 
 
-![hyp3rflow's solved.ac stats](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=moveside)
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=moveside)](https://solved.ac/moveside)

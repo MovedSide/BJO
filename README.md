@@ -20,4 +20,5 @@ id : moveside
 
 
 
-이 저장소는 백준허브(https://chrome.google.com/webstore/detail/%EB%B0%B1%EC%A4%80%ED%97%88%EB%B8%8Cbaekjoonhub/ccammcjdkpgjmcpijpahlehmapgmphmk?hl=ko)를 이용해 백준 계정과 연동되었습니다.
+이 저장소는 백준허브(https://chrome.google.com/webstore/detail/%EB%B0%B1%EC%A4%80%ED%97%88%EB%B8%8Cbaekjoonhub/ccammcjdkpgjmcpijpahlehmapgmphmk?hl=ko)
+를 이용해 백준 계정과 연동되었습니다.

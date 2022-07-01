@@ -3,8 +3,6 @@
 
 id : moveside
 
-실버 이상만 커밋
-
 
 2/24 골드4
 
@@ -15,7 +13,6 @@ id : moveside
 3/16 class4 골드2
 
 
-https://chrome.google.com/webstore/detail/%EB%B0%B1%EC%A4%80%ED%97%88%EB%B8%8Cbaekjoonhub/ccammcjdkpgjmcpijpahlehmapgmphmk?hl=ko
 
 
 [![Solved.ac
